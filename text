@@ -1,0 +1,3 @@
+{
+    "detail": "The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- Coping_Mechanisms_Exercise\n- Coping_Mechanisms_Meditation\n- Coping_Mechanisms_Socializing\n- Current_Stressors_High\n- Current_Stressors_Low\n- ...\nFeature names seen at fit time, yet now missing:\n- Coping Mechanisms_Exercise\n- Coping Mechanisms_Meditation\n- Coping Mechanisms_Seeking therapy\n- Coping Mechanisms_Socializing\n- Current Stressors_High\n- ...\n"
+}
