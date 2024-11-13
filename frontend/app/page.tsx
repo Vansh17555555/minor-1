@@ -68,7 +68,7 @@ const AnxietyPredictionApp = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/predict/', formData);
+      const response = await axios.post('https://minor-1-bm5l.onrender.com/predict/', formData);
       setPrediction(response.data.prediction[0]);
       setError(null);
     } catch (error) {
